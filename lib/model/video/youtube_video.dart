@@ -12,7 +12,7 @@ class YoutubeVideo extends ApiResult {
     if (contentDetails_ != null)
       contentDetails = VideoContentDetails.fromJsonData(contentDetails_);
   }
-  late final VideoContentDetails? contentDetails;
+  VideoContentDetails? contentDetails;
   covariant late final VideoSnippet? snippet;
 
   @override
